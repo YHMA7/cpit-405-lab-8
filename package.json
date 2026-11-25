@@ -1,14 +1,17 @@
 {
   "name": "react",
+  "homepage": "https://YHMA7.github.io/cpit-405-lab-8",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
   "dependencies": {
+    "ajv": "^8.20.0",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "react-router-dom": "7.18.7"
+    "react-router-dom": "7.18.7",
+    "react-scripts": "^5.0.0"
   },
   "devDependencies": {
     "@types/react": "19.0.0",
@@ -20,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",

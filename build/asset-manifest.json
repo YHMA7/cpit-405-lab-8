@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cpit-405-lab-8/static/css/main.a7b34988.css",
+    "main.js": "/cpit-405-lab-8/static/js/main.343e2456.js",
+    "index.html": "/cpit-405-lab-8/index.html",
+    "main.a7b34988.css.map": "/cpit-405-lab-8/static/css/main.a7b34988.css.map",
+    "main.343e2456.js.map": "/cpit-405-lab-8/static/js/main.343e2456.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7b34988.css",
+    "static/js/main.343e2456.js"
+  ]
+}
